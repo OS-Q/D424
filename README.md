@@ -1,38 +1,47 @@
-﻿# M7:[安全验证节点](https://github.com/OS-Q/M1) 
+﻿# M7:[信息安全](https://github.com/OS-Q/M7) 
 
-用于保护数据安全，提供信任支撑，属于Q3系统子集
+用于保护信息安全，加解密，提供信任支撑
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 更多关于：[Q3系统](https://github.com/OS-Q/Q3) 可访问 www.OS-Q.com
+#### 深度学习：[M9](https://github.com/OS-Q/M9)
+
+#### 数据处理：[M8](https://github.com/OS-Q/M8)
+
+#### 边缘计算：[Q3](https://github.com/OS-Q/Q3)
+
+#### 系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
-## 简介
+## [描述](https://github.com/OS-Q/M7/wiki) 
 
 采用各种加密算法，保证数据安全
 
----
-
-## 组成
-
-#### [W25计算设备](https://github.com/OS-Q/W25)
-
-
-
-#### [W26计算设备](https://github.com/OS-Q/W26)
-
-
-
-#### [W27计算设备](https://github.com/OS-Q/W27)
-
-
-
-#### [W28计算设备](https://github.com/OS-Q/W28)
-
+#### common
 
 
 ---
 
-##  www.OS-Q.com   |   qitas@qitas.cn
+## 硬件单元
+
+
+#### [W27平台](https://github.com/OS-Q/W27)
+
+
+#### [W28平台](https://github.com/OS-Q/W28)
+
+
+#### [W29平台](https://github.com/OS-Q/W29)
+
+
+#### [W30平台](https://github.com/OS-Q/W30)
+
+
+
+---
+
+###  锻造最美之器
+
+###  www.OS-Q.com   |   qitas@qitas.cn
 
