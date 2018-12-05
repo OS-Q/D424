@@ -1,4 +1,4 @@
-﻿# M7:[模式识别](https://github.com/OS-Q/M7) 
+﻿# M7：[信息过滤](https://github.com/OS-Q/M7) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,19 +8,9 @@
 
 ## [节点描述](https://github.com/OS-Q/M7/wiki) 
 
-M7模式识别节点，用于从数据中提取特征进行识别判定，完成无用数据的过滤和有用数据的精炼
+M7信息过滤节点，完成数据的加解密，过滤非权限数据
 
-### [共用资源](https://github.com/OS-Q/M7/wiki/src) 
-
-#### 前置准备
-
-- 数据预处理
-
-- 模式获取
-
-#### 运行中
-
-- 数据存储
+### [共用资源](https://github.com/OS-Q/M7/wiki) 
 
 
 ---
@@ -45,23 +35,22 @@ M7模式识别节点，用于从数据中提取特征进行识别判定，完成
 
 基于增强学习算法进行自优化的行为和策略
 
+## [同级节点](https://github.com/OS-Q/Q3/wiki)
 
-## [同级节点](https://github.com/OS-Q/M7/wiki/index)
+#### -> M7:[信息过滤](https://github.com/OS-Q/M7)
 
-#### -> M7：[模式识别](https://github.com/OS-Q/M7)
-
-模式识别节点，通过既定模式进行判断
+安全管理和数据过滤，通过算力支撑相应安全算法工作，完成数据的加解密，过滤非权限数据
  
-#### M8：[流程匹配](https://github.com/OS-Q/M8) 
+#### M8:[数据筛选](https://github.com/OS-Q/M8) 
 
-流程匹配节点，添加顺序特征，具有时间变量
+通过确定的模式和特点机制进行信息匹配，处理目标数据获得结果和结论
 
-#### M9：[概率判定](https://github.com/OS-Q/M9)
+#### M9:[深度运算](https://github.com/OS-Q/M9)
 
-概率判定节点，没有既定的判断条件和目标，通过概率获得结论
+通过深度模型网络和概率，完成语音和图像等信息的识别和处理
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
 ###  qitas@qitas.cn
-###  2018-11-28
+####  2018-12-5
