@@ -1,14 +1,14 @@
-﻿# M7：[信息过滤](https://github.com/OS-Q/M7) 
+﻿# M7：[系统管理](https://github.com/OS-Q/M7) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属设备体系：[Q3](https://github.com/OS-Q/Q3)
+#### 归属边缘计算：[Q3](https://github.com/OS-Q/Q3)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ## [节点描述](https://github.com/OS-Q/M7/wiki) 
 
-M7信息过滤节点，完成数据的加解密，过滤非权限数据
+M7系统管理节点，用于完成对边缘硬件组成的常态维护和支持
 
 ### [共用资源](https://github.com/OS-Q/M7/wiki) 
 
@@ -19,38 +19,41 @@ M7信息过滤节点，完成数据的加解密，过滤非权限数据
 
 ## [包含平台](https://github.com/OS-Q/M7/wiki/index) 
 
-#### W27：[数据挖掘平台](https://github.com/OS-Q/W27)
+#### W27：[状态监控](https://github.com/OS-Q/W27)
 
-基于数据特征和规律的统计
+用于监控各个平台的状态信息，维护通信
 
-#### W28：[图像处理平台](https://github.com/OS-Q/W28)
+#### W28：[自动布置](https://github.com/OS-Q/W28)
 
-基于OPENCV的图形处理和识别
+用于编译相关源码，设置相应设备的参数
 
-#### W29：[监督学习平台](https://github.com/OS-Q/W29)
+#### W29：[异常处理](https://github.com/OS-Q/W29)
 
-基于监督学习算法进行特征的聚类筛选
+用于处理各个平台节点的异常状态
 
-#### W30：[增强学习平台](https://github.com/OS-Q/W30)
+#### W30：[系统交互](https://github.com/OS-Q/W30)
 
-基于增强学习算法进行自优化的行为和策略
+用于发布系统相关信息，用于配置相关状态和参数
 
-## [同级节点](https://github.com/OS-Q/Q3/wiki)
+## [同级节点](https://github.com/OS-Q/Q3/wiki/)
 
-#### -> M7:[信息过滤](https://github.com/OS-Q/M7)
+#### -> M7：[系统管理](https://github.com/OS-Q/M7)
 
-安全管理和数据过滤，通过算力支撑相应安全算法工作，完成数据的加解密，过滤非权限数据
+用于管理Q系统各个节点，常态维护和异常处理
  
-#### M8:[数据筛选](https://github.com/OS-Q/M8) 
+#### M8：[数据处理](https://github.com/OS-Q/M8) 
 
-通过确定的模式和特点机制进行信息匹配，处理目标数据获得结果和结论
+用于实现特定算法的计算功能
 
-#### M9:[深度运算](https://github.com/OS-Q/M9)
+#### M9：[深度分析](https://github.com/OS-Q/M9)
 
-通过深度模型网络和概率，完成语音和图像等信息的识别和处理
+用于部署相关深度模型扩展边缘计算功能
+
 
 ---
 
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
 ###  qitas@qitas.cn
-####  2018-12-5
+
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
+
+####  2018-12-7
