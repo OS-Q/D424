@@ -1,4 +1,4 @@
-﻿# M7：[边缘管理](https://github.com/OS-Q/M7) 
+﻿# M7：[边缘管控](https://github.com/OS-Q/M7) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,7 +8,7 @@
 
 ## [节点描述](https://github.com/OS-Q/M7/wiki) 
 
-M7边缘管理节点，用于完成对边缘硬件组成的常态维护和支持
+M7边缘管控节点，作为一个局域边缘体系的核心，用于完成对边缘硬件组成的常态维护和各种支持，包括承接弹性资源
 
 ### [共用资源](OS-Q/)
 
@@ -19,29 +19,29 @@ M7边缘管理节点，用于完成对边缘硬件组成的常态维护和支持
 
 - naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
 
-## [包含平台](https://github.com/OS-Q/M7/wiki/index) 
+## [包含平台](https://github.com/OS-Q/M7/wiki) 
 
-#### W27：[信息收集](https://github.com/OS-Q/W27)
+#### W27：[状态管控](https://github.com/OS-Q/W27)
 
-用于监控和收集各平台节点的状态数据
+用于管理和控制下辖所有的节点设备的生存状态
 
-#### W28：[构建部署](https://github.com/OS-Q/W28)
+#### W28：[身份管控](https://github.com/OS-Q/W28)
 
-用于编译相关工程，配置相应设备参数
+用于管理和控制下辖所有节点的功能和初始配置
 
-#### W29：[巡查维护](https://github.com/OS-Q/W29)
+#### W29：[业务管控](https://github.com/OS-Q/W29)
 
-用于按规则针对性巡查设备和状态监测
+用于管理和控制下辖所有节点的功能和业务逻辑
 
-#### W30：[边缘交互](https://github.com/OS-Q/W30)
+#### W30：[信息管控](https://github.com/OS-Q/W30)
 
-用于呈现信息和用户进行各种控制交互
+用于管理呈现边缘体系信息，完成和用户间交互
 
 ## [同级节点](https://github.com/OS-Q/Q3/wiki/)
 
-#### -> M7：[边缘管理](https://github.com/OS-Q/M7)
+#### [M7：边缘管控](https://github.com/OS-Q/M7)
 
-用于管理边缘节点，常态管理和异常处理
+用于管控所辖所有边缘设备，包括常态管理和异常处理
  
 #### M8：[数据分析](https://github.com/OS-Q/M8) 
 
@@ -55,5 +55,5 @@ M7边缘管理节点，用于完成对边缘硬件组成的常态维护和支持
 
 ####  © qitas@qitas.cn
 ###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2018-12-26
+####  @ 2019-1-14
 
